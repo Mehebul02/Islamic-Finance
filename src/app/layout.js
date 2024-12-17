@@ -20,14 +20,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="cupcake">
+    <html lang="en" data-theme="light">
         <link rel="icon" href="/favicon.ico" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="440px">
+
         <Header/>
-        </div>
+    
         {children}
       </body>
     </html>

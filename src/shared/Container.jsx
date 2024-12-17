@@ -1,11 +1,12 @@
-import { twMerge } from "tailwind-merge";
+// const Container = ({ children, maxWidth = "1120px" , className }) => {
+//   return (
+//     <div
+//       className={`mx-auto px-4 lg:px-0 ${className}`}
+//       style={{ maxWidth }}
+//     >
+//       {children}
+//     </div>
+//   );
+// };
 
-const Container = ({ children }) => {
-  return (
-    <div className="max-w-[1120px] mx-auto px-4 lg:px-0">
-      {children}
-    </div>
-  );
-};
-
-export default Container;
+// export default Container;

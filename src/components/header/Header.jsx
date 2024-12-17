@@ -1,63 +1,93 @@
-import Container from '@/shared/Container';
-import React from 'react';
+import { logo } from "@/assets/images";
+import { navigation } from "@/constant";
+
+import Container from "@/shared/Container";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const Header = () => {
-    return (
-       <div className='140px'>
-         <div className="navbar bg-base-100">
-  <div className="navbar-start">
-    <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M4 6h16M4 12h8m-8 6h16" />
-        </svg>
-      </div>
-      <ul
-        tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
+  return (
+    <div className="max-w-[1140px] mx-auto bg-[#ffff] pt-6">
+      <div className="navbar ">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              {navigation?.map((item) => (
+                <Link className="mb-4" href={item?.href} key={item?.title}>
+                  {item.title}
+                </Link>
+              ))}
+            </ul>
+          </div>
+          <Link href="/">
+            <Image className="w-[100px] md:w-[150px]" src={logo} alt="logo" />
+          </Link>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">
+            <div className="text-[20px] md:text-[16px]  flex items-center gap-5 font-WorkSanser font-[400px]">
+              {navigation?.map((item) => (
+                <Link
+                  className="hover:text-primaryColor "
+                  href={item?.href}
+                  key={item?.title}
+                >
+                  {item.title}
+                </Link>
+              ))}
+
+              {/* {navigation.map((item, index) => (
+        <li key={index}>
+          {item.submenu ? (
+            <details>
+              <summary>{item.title}</summary>
+              <ul className="">
+                {item.submenu.map((subItem, subIndex) => (
+                  <li key={subIndex}>
+                    <a href={subItem.href}>{subItem.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          ) : (
+            <a href={item.href}>{item.title}</a>
+          )}
         </li>
-        <li><a>Item 3</a></li>
-      </ul>
-    </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
-  </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+      ))} */}
+            </div>
           </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
-  </div>
-</div>
-       </div>
-    );
+        </div>
+        <div className="navbar-end gap-6 md:gap-10">
+          <button className=" text-primaryColor  rounded-full text-[17px] font-WorkSanser font-medium">
+            Log In
+          </button>
+          <button className="bg-primaryColor text-white rounded-full md:text-[16px] font-WorkSanser font-medium px-2 md:px-6 py-3 md:py-3">
+            Apply Now
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Header;
