@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -8,10 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primaryColor:'#00233F',
+        secondaryColor:'#174A50'
+      },
+      fontFamily: {
+        WorkSanser: ['Work Sans", sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
