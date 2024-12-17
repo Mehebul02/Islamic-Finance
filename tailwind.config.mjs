@@ -15,7 +15,7 @@ export default {
         secondaryColor:'#174A50'
       },
       fontFamily: {
-        WorkSanser: ['Work Sans", sans-serif'],
+        WorkSanser: ['Work Sans'],
       },
     },
   },

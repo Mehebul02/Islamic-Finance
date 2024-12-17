@@ -46,7 +46,7 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <div className="text-[20px] md:text-[16px]  flex items-center gap-5 font-WorkSanser font-[400px]">
+            <div className="text-[20px] md:text-[18px]  flex items-center gap-5 font-WorkSanser font-[400px]">
               {navigation?.map((item) => (
                 <Link
                   className="hover:text-primaryColor "
