@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Hero from "@/components/heroSection/Hero";
 
 export default function Home() {
   return (
-    <div className="bg-white h-screen">
-      hgfhsdgfds
+    <div className='max-w-[1140px] mx-auto pt-10'>
+      <Hero/>
     </div>
   );
 }

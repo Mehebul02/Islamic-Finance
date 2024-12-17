@@ -2,6 +2,7 @@ import { logo } from "@/assets/images";
 import { navigation } from "@/constant";
 
 import Container from "@/shared/Container";
+import CustomButton from "@/shared/CustomButton";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -81,9 +82,7 @@ const Header = () => {
           <button className=" text-primaryColor  rounded-full text-[17px] font-WorkSanser font-medium">
             Log In
           </button>
-          <button className="bg-primaryColor text-white rounded-full md:text-[16px] font-WorkSanser font-medium px-2 md:px-6 py-3 md:py-3">
-            Apply Now
-          </button>
+          <CustomButton text='Apply Now'/>
         </div>
       </div>
     </div>
