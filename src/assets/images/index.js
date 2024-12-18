@@ -19,6 +19,12 @@ import shariCompliant from "./about/shariCompliant.png";
 import rectangle1 from "./Rectangle1.png";
 import rectangle2 from "./Rectangle2.png";
 import stars from "./Stars.png";
+import frame1 from "./Frame1.png";
+import icon1 from "./howitWorks/icon1.png";
+import icon2 from "./howitWorks/icon (2).png";
+import icon3 from "./howitWorks/icon (3).png";
+import icon4 from "./howitWorks/icon (4).png";
+
 
 export {
   logo,
@@ -41,5 +47,10 @@ export {
   shariCompliant,
   rectangle1,
   rectangle2,
-  stars
+  stars,
+  frame1,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
 };

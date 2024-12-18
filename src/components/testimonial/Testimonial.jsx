@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Testimonial = () => {
     return (
-        <div className='bg-[#005397] h-52 pt-10'>
+        <div className='bg-[#005397]  pb-10  pt-10'>
             <Container>
             <div className="flex flex-col md:flex-row justify-between gap-6 bg-[#005397] ">
         <div>
