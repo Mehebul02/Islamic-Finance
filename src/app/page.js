@@ -1,6 +1,7 @@
 import AboutUs from "@/components/aboutUs/AboutUs";
 import FeatureSlide from "@/components/feature-slider/FeatureSlide";
 import LogoSlider from "@/components/feature-slider/Slider";
+import Gallery from "@/components/gallery/Gallery";
 import Hero from "@/components/heroSection/Hero";
 import HowItWork from "@/components/howitWorks/HowItWork";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Solutions/>
       <Testimonial/>
     <HowItWork/>
+    <Gallery/>
   
      </div>
   );

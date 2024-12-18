@@ -28,6 +28,11 @@ import icon5 from "./howitWorks/icon (5).png";
 import icon6 from "./howitWorks/icon (6).png";
 import icon7 from "./howitWorks/icon (7).png";
 import icon8 from "./howitWorks/icon (8).png";
+import playButton from "./play-solid-rounded 1.png";
+import image1 from "./gallery/image1.png";
+import image2 from "./gallery/image2.png";
+import image3 from "./gallery/image3.png";
+import image4 from "./gallery/image4.png";
 
 
 export {
@@ -61,4 +66,9 @@ export {
   icon6,
   icon7,
   icon8,
+  playButton,
+  image1,
+  image2,
+  image3,
+  image4
 };
