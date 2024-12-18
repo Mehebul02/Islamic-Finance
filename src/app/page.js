@@ -3,6 +3,7 @@ import FeatureSlide from "@/components/feature-slider/FeatureSlide";
 import LogoSlider from "@/components/feature-slider/Slider";
 import Hero from "@/components/heroSection/Hero";
 import Solutions from "@/components/Solutions/Solutions";
+import Testimonial from "@/components/testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     </div>
       <AboutUs/>
       <Solutions/>
+      <Testimonial/>
   
      </div>
   );

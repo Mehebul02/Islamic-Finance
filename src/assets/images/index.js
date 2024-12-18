@@ -18,6 +18,7 @@ import fasterDecision from "./about/fasterDecision.png";
 import shariCompliant from "./about/shariCompliant.png";
 import rectangle1 from "./Rectangle1.png";
 import rectangle2 from "./Rectangle2.png";
+import stars from "./Stars.png";
 
 export {
   logo,
@@ -40,4 +41,5 @@ export {
   shariCompliant,
   rectangle1,
   rectangle2,
+  stars
 };
