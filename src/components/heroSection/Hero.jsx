@@ -7,7 +7,7 @@ import React from "react";
 const Hero = () => {
   return (
     // main container
-    <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-16 px-4 md:px-8 ">
+    <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-16 px-4 md:px-8 bg-white">
       {/* 1st section  */}
       <div className="md:w-[50%] flex justify-between items-center">
         <div>

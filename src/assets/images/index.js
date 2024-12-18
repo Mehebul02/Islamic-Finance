@@ -10,6 +10,7 @@ import slide3 from "./slider/slide3.png";
 import slide4 from "./slider/slide4.png";
 import slide5 from "./slider/slide5.png";
 import slide6 from "./slider/slide6.png";
+import circle from "./circle.png";
 
 export {
   logo,
@@ -23,5 +24,6 @@ export {
   slide3,
   slide4,
   slide5,
-  slide6
+  slide6,
+  circle
 };
