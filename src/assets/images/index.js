@@ -11,6 +11,11 @@ import slide4 from "./slider/slide4.png";
 import slide5 from "./slider/slide5.png";
 import slide6 from "./slider/slide6.png";
 import circle from "./circle.png";
+import about from "./aboutUs.png";
+import lowerRates from "./about/Lower Rates.png";
+import financing from "./about/Financing.png";
+import fasterDecision from "./about/fasterDecision.png";
+import shariCompliant from "./about/shariCompliant.png";
 
 export {
   logo,
@@ -25,5 +30,10 @@ export {
   slide4,
   slide5,
   slide6,
-  circle
+  circle,
+  about,
+  lowerRates,
+  financing,
+  fasterDecision,
+  shariCompliant
 };
