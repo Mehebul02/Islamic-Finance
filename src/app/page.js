@@ -8,7 +8,7 @@ export default function Home() {
   return (
     
      < div>
-     <div className='max-w-[1140px] mx-auto pt-10 '>
+     <div className='max-w-[1240px] mx-auto pt-10 '>
       <Hero/>
       <FeatureSlide/>
       <LogoSlider/>

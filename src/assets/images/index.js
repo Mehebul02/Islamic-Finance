@@ -16,6 +16,8 @@ import lowerRates from "./about/Lower Rates.png";
 import financing from "./about/Financing.png";
 import fasterDecision from "./about/fasterDecision.png";
 import shariCompliant from "./about/shariCompliant.png";
+import rectangle1 from "./Rectangle1.png";
+import rectangle2 from "./Rectangle2.png";
 
 export {
   logo,
@@ -35,5 +37,7 @@ export {
   lowerRates,
   financing,
   fasterDecision,
-  shariCompliant
+  shariCompliant,
+  rectangle1,
+  rectangle2,
 };
