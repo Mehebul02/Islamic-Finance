@@ -18,7 +18,6 @@ const testimonials = [
     name: "Razu Sardar",
     role: "CEO of RSM",
     tag: "Fund Seeker",
-    date: "2 days ago",
     feedback: "Fast at letting me know I got approved for the loan. Fund deposit was fast.",
   },
   {
@@ -26,7 +25,7 @@ const testimonials = [
     name: "Arlene McCoy",
     role: "CTO of The Walt Disney Company",
     tag: "Investor",
-    date: "2 days ago",
+   
     feedback: "Fast at letting me know I got approved for the loan. Fund deposit was fast.",
   },
   {
@@ -34,7 +33,7 @@ const testimonials = [
     name: "Floyd Miles",
     role: "MD of Starbucks",
     tag: "Investor",
-    date: "2 days ago",
+   
     feedback: "Fast at letting me know I got approved for the loan. Fund deposit was fast.",
   },
   {
@@ -42,7 +41,7 @@ const testimonials = [
     name: "Jane Cooper",
     role: "HR of Gillette",
     tag: "Fund Seeker",
-    date: "2 days ago",
+   
     feedback: "Fast at letting me know I got approved for the loan. Fund deposit was fast.",
   },
   {
@@ -50,7 +49,7 @@ const testimonials = [
     name: "Darlene Robertson",
     role: "HOD of McDonald's",
     tag: "Investor",
-    date: "2 days ago",
+  
     feedback: "Fast at letting me know I got approved for the loan. Fund deposit was fast.",
   },
 ];
@@ -93,9 +92,7 @@ const TestimonialSlider = () => {
                <Image className="mb-2" src={stars} alt="stars"/>
               <p className="text-gray-600 text-sm font-WorkSanser mb-4">{testimonial.role}</p>
               <p className="text-gray-800 mb-4 font-WorkSanser">{testimonial.feedback}</p>
-              <div className="text-right text-gray-400 text-xs font-WorkSanser">
-                {testimonial.date}
-              </div>
+             
             </div>
           </SwiperSlide>
         ))}

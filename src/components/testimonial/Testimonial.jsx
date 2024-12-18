@@ -8,16 +8,16 @@ const Testimonial = () => {
     return (
         <div className='bg-[#005397] h-52 pt-10'>
             <Container>
-            <div className="flex justify-between ">
+            <div className="flex flex-col md:flex-row justify-between gap-6 bg-[#005397] ">
         <div>
-        <h3 className="text-xl text-[#7CE4A1] font-WorkSanser font-medium tracking-wide">
+        <h3 className="text-xl text-center md:text-start text-[#7CE4A1] font-WorkSanser font-medium tracking-wide">
           Testimonial
         </h3>
-        <h2 className="text-[42px] text-white font-WorkSanser font-semibold mt-2">
+        <h2 className="text-[20px] text-center md:text-start md:text-[42px] text-white font-WorkSanser font-semibold mt-2">
           For nearly 07 years, <br /> people have chosen VISAThing!
         </h2>
         </div>
-   <div className="flex justify-center md:justify-start items-center text-gray-600 text-lg  font-WorkSanser">
+   <div className="flex justify-center md:justify-start items-center text-gray-600 text-lg   font-WorkSanser">
             <div>
             <span className="mr-1 text-[#b3b4b7]">See our</span>
              <span className="font-bold underline text-[#DCDFEA] mr-1">
