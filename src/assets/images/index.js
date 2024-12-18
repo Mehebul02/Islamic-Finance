@@ -24,6 +24,10 @@ import icon1 from "./howitWorks/icon1.png";
 import icon2 from "./howitWorks/icon (2).png";
 import icon3 from "./howitWorks/icon (3).png";
 import icon4 from "./howitWorks/icon (4).png";
+import icon5 from "./howitWorks/icon (5).png";
+import icon6 from "./howitWorks/icon (6).png";
+import icon7 from "./howitWorks/icon (7).png";
+import icon8 from "./howitWorks/icon (8).png";
 
 
 export {
@@ -53,4 +57,8 @@ export {
   icon2,
   icon3,
   icon4,
+  icon5,
+  icon6,
+  icon7,
+  icon8,
 };
