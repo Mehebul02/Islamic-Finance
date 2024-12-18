@@ -5,11 +5,11 @@ import CustomAbout from "./CustomAbout";
 const AboutUs = () => {
   return (
     <div className="bg-[#ECF8F5] mt-10">
-      <div className="max-w-[1140px] h-screen mx-auto pt-10 ">
+      <div className="max-w-[1140px]  mx-auto pt-10 ">
         {/* main container  */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* 1st section  */}
-         <div className=" flex  justify-center  md:w-[50%] md:h-[930px]  md:items-center bg-white rounded-lg p-10">
+         <div className=" flex  justify-center  md:w-[50%] md:h-[650px]  md:items-center bg-white rounded-lg p-10">
          <div >
             <h3 className="text-xl text-secondaryColor font-WorkSanser font-medium">
               About us
@@ -59,7 +59,7 @@ const AboutUs = () => {
           </div>
          </div>
           {/* 2nd section  */}
-          <div className="md:w-[50%] md:h-[930px] bg-white rounded-lg p-10">
+          <div className="md:w-[50%] md:h-[650px] bg-white rounded-lg p-10">
             <Image className="mb-8" src={about} alt="about"/>
            {/* About icon  */}
            <div className="grid grid-cols-2 gap-10">

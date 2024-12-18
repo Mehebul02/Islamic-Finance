@@ -1,12 +1,11 @@
-// const Container = ({ children, maxWidth = "1120px" , className }) => {
-//   return (
-//     <div
-//       className={`mx-auto px-4 lg:px-0 ${className}`}
-//       style={{ maxWidth }}
-//     >
-//       {children}
-//     </div>
-//   );
-// };
 
-// export default Container;
+
+const Container = ({ children,  }) => {
+  return (
+    <div className="max-w-[1140px] mx-auto px-4 lg:px-0 ">
+      {children}
+    </div>
+  );
+};
+
+export default Container;
