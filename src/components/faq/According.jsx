@@ -2,8 +2,8 @@ import React from "react";
 
 const According = () => {
   return (
-    <div>
-      <div className="collapse collapse-arrow bg-base-200">
+    <div className="space-y-2">
+      <div className="collapse collapse-arrow  mt-10">
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl text-[#111322] font-WorkSanser font-medium">
           How can i register as a n investor?
@@ -17,7 +17,7 @@ const According = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow ">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl text-[#111322] font-WorkSanser font-medium">
         What is the maximum and minimum investment in RSIN Platform?
@@ -31,7 +31,7 @@ const According = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow ">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl text-[#111322] font-WorkSanser font-medium">
         How can i upgrade my account to a qualified on RSIN Platform?
@@ -45,7 +45,7 @@ const According = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow ">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl text-[#111322] font-WorkSanser font-medium">
         What is automatic investment?
@@ -59,7 +59,7 @@ const According = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow ">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl text-[#111322] font-WorkSanser font-medium">
         when can i receive profits?

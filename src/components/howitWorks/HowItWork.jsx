@@ -5,7 +5,7 @@ import ForInvestors from './ForInvestors';
 
 const HowItWork = () => {
     return (
-        <div className="bg-[#ECF8F5]   ">
+        <div className="bg-[#ECF8F5]  pb-20 ">
         <Container>
           {/* 1st section  */}
           <div >
@@ -23,11 +23,11 @@ const HowItWork = () => {
           {/* 2nd section  */}
           <div className='flex flex-col md:flex-row justify-between items-center gap-6 mt-14'>
           {/* For Investors */}
-          <div className='md:w-[50%] bg-white px-6 pt-4 rounded-md'>
+          <div className='md:w-[50%] bg-white px-6 pt-4 pb-6 rounded-md'>
          <ForInvestors/>
           </div>
           {/* For Businesses */}
-          <div className='lg:w-[50%] bg-white px-6 pt-4 rounded-md'>
+          <div className='lg:w-[50%] bg-white px-6 pt-4 pb-4 rounded-md'>
           <ForBusinesses/>
           </div>
           </div>
