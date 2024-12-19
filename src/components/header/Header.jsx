@@ -79,9 +79,14 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end gap-6 md:gap-10">
-          <button className=" text-primaryColor  rounded-full text-[17px] font-WorkSanser font-medium">
+        
+         <Link href='/login'>
+      
+           <button  className=" text-primaryColor  rounded-full text-[17px] font-WorkSanser font-medium">
             Log In
           </button>
+        </Link>
+        
           <CustomButton text='Apply Now'/>
         </div>
       </div>

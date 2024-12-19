@@ -1,6 +1,5 @@
 
 import { logo } from '@/assets/images';
-import Container from '@/shared/Container';
 import CustomButton from '@/shared/CustomButton';
 import Image from 'next/image';
 import Link from 'next/link';
