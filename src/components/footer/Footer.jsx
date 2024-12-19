@@ -13,7 +13,7 @@ const Footer = () => {
         <footer className="footer pt-10  p-10">
           <aside>
             <Image src={logo} alt="logo" />
-            <p className="w-80 text-[15px] font-WorkSanser font-normal  mt-2 mb-2">
+            <p className="md:w-80 text-[15px] font-WorkSanser font-normal  mt-2 mb-2">
               Disclaimer: Due to the periodic changes of information/
               requirement/ document, RSIN doesn’t provide any confirmation,
               guarantee or representation, express or implied, that the
