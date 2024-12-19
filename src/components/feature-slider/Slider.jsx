@@ -32,10 +32,10 @@ const LogoSlider = () => {
       <Container>
         <Swiper
           modules={[Navigation, Autoplay]}
-          spaceBetween={0} // Reduced gap to 0 for no space between slides
-          slidesPerView={5} // Increased slides for a compact layout
+          spaceBetween={0} 
+          slidesPerView={5} 
           loop={true}
-          navigation={false} // Navigation buttons disabled
+          navigation={false} 
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,

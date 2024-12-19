@@ -67,7 +67,7 @@ const TestimonialSlider = () => {
         spaceBetween={30}
         slidesPerView={3}
         loop={true}
-        navigation={true}
+        navigation={false}
         pagination={{ clickable: true }}
         autoplay={{
           delay: 3000,
@@ -78,7 +78,7 @@ const TestimonialSlider = () => {
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
-        className="mySwiper"
+        
       >
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
