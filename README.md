@@ -22,7 +22,7 @@ Islamic Finance is a modern web application designed to streamline financial ope
 
 ## Technologies Used
 - **Frontend**: React.js, Next.js, Swiper.js
-- **Styling**: Tailwind CSS, custom fonts (Geist Sans and Geist Mono)
+- **Styling**: Tailwind CSS, custom fonts (work sans)
 - **Hosting**: Vercel
 - **Other**: Responsive design principles and accessibility enhancements
 
