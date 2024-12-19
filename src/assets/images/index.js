@@ -33,6 +33,11 @@ import image1 from "./gallery/image1.png";
 import image2 from "./gallery/image2.png";
 import image3 from "./gallery/image3.png";
 import image4 from "./gallery/image4.png";
+import twitter from "./socialIcons/social icon.png";
+import linkedin from "./socialIcons/linkdin.png";
+import instagram from "./socialIcons/instagram.png";
+import facebook from "./socialIcons/facebook.png";
+import appStor from "./appStor.png";
 
 
 export {
@@ -70,5 +75,10 @@ export {
   image1,
   image2,
   image3,
-  image4
+  image4,
+  twitter,
+  linkedin,
+  instagram,
+  facebook,
+  appStor
 };
