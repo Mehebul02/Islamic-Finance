@@ -1,9 +1,9 @@
 export const navigation = [
     { title: "Home", href: "/" },
-    { title: "For Business", href: "/ddsd" },
-    { title: "For Investors", href: "/#" },
-    { title: "Financing Rates", href: "/#" },
-    { title: "Others", href: "/#" },
+    { title: "For Business", href: "/for-business" },
+    { title: "For Investors", href: "/for-investors" },
+    { title: "Financing Rates", href: "/financing-rates" },
+    { title: "Others", href: "/Others" },
     // {
     //   title: "Others",
     //   submenu: [
